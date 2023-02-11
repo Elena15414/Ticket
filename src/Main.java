@@ -6,8 +6,7 @@ public class Main {
         int bonus; // бонус
         if (amount >= x) {
             bonus = amount / x;
-        }
-        else {
+        } else {
             bonus = 0;
         }
         System.out.println("Итоговый бонус:" + bonus);
